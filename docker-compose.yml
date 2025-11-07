@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  
+  # React Frontend
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    depends_on:
+      - server
+    stdin_open: true
+    tty: true
+
+  # Node.js/Express Backend
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - '5000:5000'
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/saas-dashboard
+      - JWT_SECRET=your-super-secret-key-change-this
+    
+  # MongoDB Database
+  mongo:
+    image: mongo:latest
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:

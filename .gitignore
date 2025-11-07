@@ -1,0 +1,15 @@
+# Server dependencies
+server/node_modules
+
+# Client dependencies
+client/node_modules
+
+# Server secrets
+server/.env
+
+# React build output
+client/build
+
+# Mac/Windows clutter
+.DS_Store
+Thumbs.db
