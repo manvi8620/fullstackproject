@@ -36,3 +36,29 @@ Q31: Design a structured Single Page Application (SPA) architecture for a blog w
 Q32: Compare Redux Toolkit and the Context API for state management. Provide use case scenarios for when each approach is most suitable.
 Q33: Explain various React performance optimization techniques, such as memoization, lazy loading, and code splitting, and analyze their effects on application performance.
 Q34: Implement a simple Context API setup to manage user authentication state across components. Demonstrate the use of providers and consumers.
+----------------------------
+Section-A
+
+Q1: Differentiate between global state and local state in React.
+Q2: Highlight the advantages of using design patterns in frontend development.
+Q3: Compare global state and local state in React.
+Q4: Discuss the importance of optimizing performance in frontend applications.
+Q5: Explain the significance of component libraries in UI design.
+Q6: Describe the structure and workflow of single-page applications.
+Q7: Explain the design and operation of Single Page Applications.
+Q8: Outline the frontend-backend communication flow in SPA architecture.
+Q9: Define the concept of reusable UI components.
+Q10: Explain how theme switching works in a React application.
+Q11: Describe the use of Material UI components to build a responsive login form.
+Q12: Provide an overview of how routing is implemented in a single-page application.
+Q13: Explain the concept of code splitting in React applications.
+Q14: Summarize the significance of Material UI in modern frontend development.
+Q15: Demonstrate how to implement code splitting using React.lazy().
+Q16: Define lazy loading as a technique for frontend performance optimization.
+Q17: Identify the core features of a Single Page Application.
+Q18: Explain the purpose of the Context API in React.
+Q19: Define Redux and its role in state management.
+Q20: List the popular UI component libraries used in modern frontend development.
+Q21: Define a Single Page Application (SPA).
+Q22: Explain how to create a Redux store with actions and reducers.
+Section-B
